@@ -1,0 +1,61 @@
+.title-user {
+  background-color: #6d9cce;
+  margin: 0 -15px;
+}
+.title-user h1 {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+.group-heading {
+  background-color: #333;
+}
+
+.user {
+  background-color: #6d9cce;
+  margin: 0 -15px;
+}
+.user_btn {
+  border-radius: 50%;
+  background-color: #9c9a9a;
+  width: 35px;
+  height: 35px;
+  margin: 0 10px;
+
+  border: none;
+}
+.user_btn i {
+  color: #363232;
+}
+.name a {
+  color: #333;
+}
+
+.name a:hover {
+  text-decoration: none;
+}
+.name a i {
+  margin-top: 2px;
+}
+
+.heading a,
+.heading span {
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+}
+.heading a:hover {
+  text-decoration: none;
+}
+.heading a li {
+  margin-top: 5px;
+  margin-left: -15px;
+}
+.frame {
+  border: 1px dashed #8e8487;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.header_file {
+  text-align: center;
+}

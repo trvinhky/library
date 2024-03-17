@@ -1,0 +1,36 @@
+.delete-book {
+  width: 50%;
+  border: 1px solid #eee;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.group-delete {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 20px 20px 10px;
+  align-items: center;
+}
+.btn-close {
+  background-color: #fff;
+  color: #5a5959f2;
+  margin: 5px;
+}
+.form-close:hover .btn-close {
+  color: #027fd1;
+  background-color: #5b6dde;
+  color: #fff;
+}
+.form-delete,
+.form-close {
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+.form-close:hover {
+  border: 2px solid #5b6dde;
+}
+.form-delete:hover {
+  border: 2px solid #dc3545;
+}
+.btn-delete {
+  margin: 5px;
+}

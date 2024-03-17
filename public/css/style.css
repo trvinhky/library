@@ -1,0 +1,222 @@
+body {
+  overflow-x: hidden;
+}
+
+/* admin */
+.go-home {
+  color: #fff;
+  margin: 10px 20px;
+}
+.go-home img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.operation {
+  padding: 0 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.detail-product {
+  box-shadow: 0px 0px 26px 0px rgba(22, 73, 172, 0.12);
+  border-radius: 7px;
+  padding: 20px;
+  margin: 20px 0;
+}
+#navbar-admin {
+  border-radius: 0;
+  background-color: #3e3f4b;
+  border: none;
+  text-align: left;
+  padding-left: 20px;
+}
+#navbar-admin:focus {
+  box-shadow: none;
+}
+#navbar-admin i {
+  padding: 0 5px;
+  width: 30px;
+}
+#navbar-admin:hover {
+  background-color: #4d506e;
+  padding-left: 25px;
+  cursor: pointer;
+}
+#navbar-admin:hover i {
+  color: #3f7df6;
+}
+.list-left {
+  background-color: #343541;
+  padding: 0;
+  min-height: 100vh;
+}
+.header-admin {
+  background-color: #0d295d;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.group-admin-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.group-admin-right button {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: #0d6296;
+  margin-right: 20px;
+}
+.title-admin {
+  margin-bottom: 0px;
+  color: #fff;
+}
+.title-add-product {
+  margin-left: 20vh;
+  color: #0d6296;
+  padding: 20px 0;
+}
+.input-group-prepend {
+  min-width: 125px;
+}
+.input-group-text {
+  width: 100%;
+}
+.form-group label {
+  min-width: 130px;
+}
+.form-group {
+  display: flex;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.background-themsp {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 26px 0 rgba(10, 1, 73, 0.12);
+  width: auto;
+  margin: 10px;
+}
+.content-admin {
+  height: calc(100vh - 69px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* form */
+
+.productForm {
+  padding: 30px 50px;
+}
+
+.h3 {
+  color: #6d9cce;
+}
+
+p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+h2 {
+  color: red;
+  margin: 10px 0 20px;
+}
+
+.deleteForm {
+  width: 60%;
+  padding: 30px 50px 50px;
+  border-radius: 5px;
+}
+
+.delete {
+  margin-left: 27.5%;
+}
+
+.productForm {
+  margin: 30px 200px;
+  padding: 30px 50px;
+  border: 1px solid #6d9cce;
+}
+
+.h3 {
+  color: #6d9cce;
+}
+
+.admin-dropdown__btn {
+  width: 100%;
+  color: #fff;
+  background-color: #3e3f4b;
+  border: none;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.admin-dropdown__btn:hover {
+  background-color: #4d506e;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-secondary.admin-dropdown__btn:focus {
+  box-shadow: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.admin-dropdown__btn {
+  color: #fff;
+  background-color: #4d506e;
+}
+.admin-dropdown__btn:focus {
+  outline: none;
+}
+
+p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+h2 {
+  color: red;
+  margin: 10px 0 20px;
+}
+
+.deleteForm {
+  width: 60%;
+  padding: 30px 50px 50px;
+  border: 1px solid #6d9cce;
+  border-radius: 5px;
+}
+
+.delete {
+  margin-left: 27.5%;
+}
+
+.fillter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+}
